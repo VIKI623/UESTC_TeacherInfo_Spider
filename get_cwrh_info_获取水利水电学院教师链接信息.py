@@ -2,7 +2,6 @@
 import requests
 import re
 from bs4 import BeautifulSoup
-import json
 
 url_base = "http://cwrh.scu.edu.cn"
 
