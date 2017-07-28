@@ -68,7 +68,7 @@ if __name__ == "__main__":
                 other = "".join(otherContent.get_text().splitlines())
                 prereadydata['other'] = other.strip()
 
-                fk = open('D:/data/sichuanU/photo/10610102/slsd.json','w',encoding='utf-8')
+                fk = open('D:/data/sichuanU/photo/10610306/slsd.json','w',encoding='utf-8')
                 readydata = json.dumps(prereadydata,ensure_ascii=False)
                 fk.write(readydata+ ',')
                 fk.close()
